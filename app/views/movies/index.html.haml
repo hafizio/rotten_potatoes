@@ -9,10 +9,10 @@
 %table#movies
   %thead
     %tr
-      %th{ class: css_class_helper('title'), id: 'title_header' }
+      %th{ class: css_helper('title'), id: 'title_header' }
         = link_to 'Movie Title', movies_path(sort_by: 'title')
       %th Rating
-      %th{ class: css_class_helper('release_date'), id: 'release_date_header' }
+      %th{ class: css_helper('release_date'), id: 'release_date_header' }
         = link_to 'Release Date', movies_path(sort_by: 'release_date')
       %th More Info
   %tbody
