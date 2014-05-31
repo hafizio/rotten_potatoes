@@ -4,7 +4,7 @@ module MoviesHelper
   end
   
   def highlight(sort_by)
-    'hilite' if @sorted_by == sort_by.to_s
+    'hilite' if @sorted_by == sort_by
   end
   
   def rating_selected(rating)
